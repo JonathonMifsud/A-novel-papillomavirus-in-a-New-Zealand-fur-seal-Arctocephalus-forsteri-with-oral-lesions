@@ -1,0 +1,124 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=22;
+	taxlabels
+	AchePV1REF_Unclassified_Pipapillomavirus_Pipapillomavirus
+	BPV7REF_Dyoxipapillomavirus_1_Dyoxipapillomavirus
+	CPV13REF_Taupapillomavirus_2_Taupapillomavirus
+	CPV17REF_Unclassified_Taupapillomavirus_Taupapillomavirus
+	CPV19REF_Unclassified_Taupapillomavirus_Taupapillomavirus
+	CPV21REF_Unclassified_Taupapillomavirus_Taupapillomavirus
+	CPV22REF_Unclassified_Taupapillomavirus_Taupapillomavirus
+	CPV23REF_Unclassified_Taupapillomavirus_Taupapillomavirus
+	CPV2REF_Taupapillomavirus_1_Taupapillomavirus
+	CPV7REF_Taupapillomavirus_1_Taupapillomavirus
+	CpenPV1REF_Unclassified_Gammapapillomavirus_Gammapapillomavirus
+	FcaPV3REF_Taupapillomavirus_3_Taupapillomavirus
+	FcaPV4REF_Taupapillomavirus_3_Taupapillomavirus
+	FcaPV5REF_Unclassified_Taupapillomavirus_Taupapillomavirus
+	HPV4REF_Gammapapillomavirus_1_Gammapapillomavirus
+	LwPV2REF_Unclassified
+	LwPV5REF_Unclassified_Taupapillomavirus_Taupapillomavirus
+	MmPV4REF_Unclassified_Gammapapillomavirus_Gammapapillomavirus
+	MpPV1REF_Unclassified_Taupapillomavirus_Taupapillomavirus
+	Arctocephalus_forsteri_papillomavirus_1[&!color=#e01b28]
+	PsuPV1REF_Pipapillomavirus_1_Pipapillomavirus
+	VvPV1REF_Unclassified_Treisetapapillomavirus_Treisetapapillomavirus
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (Arctocephalus_forsteri_papillomavirus_1:0.238977,((((((AchePV1REF_Unclassified_Pipapillomavirus_Pipapillomavirus:0.360583,PsuPV1REF_Pipapillomavirus_1_Pipapillomavirus:0.289197)[&label="100/100"]:0.251138,(((CpenPV1REF_Unclassified_Gammapapillomavirus_Gammapapillomavirus:0.513557,HPV4REF_Gammapapillomavirus_1_Gammapapillomavirus:0.463138)[&label="37.5/56"]:0.06478,MmPV4REF_Unclassified_Gammapapillomavirus_Gammapapillomavirus:0.43402)[&label="90.2/84"]:0.066465,(LwPV2REF_Unclassified:0.542262,VvPV1REF_Unclassified_Treisetapapillomavirus_Treisetapapillomavirus:0.432002)[&label="99.9/100"]:0.117288)[&label="99.9/100"]:0.104654)[&label="43.6/62"]:0.081045,BPV7REF_Dyoxipapillomavirus_1_Dyoxipapillomavirus:1.132574)[&label="100/100"]:0.213762,(FcaPV3REF_Taupapillomavirus_3_Taupapillomavirus:0.351341,(FcaPV4REF_Taupapillomavirus_3_Taupapillomavirus:0.241979,FcaPV5REF_Unclassified_Taupapillomavirus_Taupapillomavirus:0.400148)[&label="100/100"]:0.138566)[&label="100/100"]:0.159354)[&label="99.9/100"]:0.091837,(((CPV2REF_Taupapillomavirus_1_Taupapillomavirus:0.193606,CPV17REF_Unclassified_Taupapillomavirus_Taupapillomavirus:0.14131)[&label="100/100"]:0.090921,(CPV7REF_Taupapillomavirus_1_Taupapillomavirus:0.124429,CPV19REF_Unclassified_Taupapillomavirus_Taupapillomavirus:0.118707)[&label="100/100"]:0.142011)[&label="100/100"]:0.253747,(((CPV13REF_Taupapillomavirus_2_Taupapillomavirus:0.262707,CPV23REF_Unclassified_Taupapillomavirus_Taupapillomavirus:0.250023)[&label="99.9/100"]:0.116004,CPV22REF_Unclassified_Taupapillomavirus_Taupapillomavirus:0.325744)[&label="97.1/96"]:0.083443,CPV21REF_Unclassified_Taupapillomavirus_Taupapillomavirus:0.330253)[&label="100/100"]:0.174593)[&label="99.6/99"]:0.07356)[&label="43.3/64"]:0.05846,LwPV5REF_Unclassified_Taupapillomavirus_Taupapillomavirus:0.54799)[&label="100/100"]:0.206407,MpPV1REF_Unclassified_Taupapillomavirus_Taupapillomavirus:0.162706);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName=".AppleSystemUIFont";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName=".AppleSystemUIFont";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName=".AppleSystemUIFont";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
