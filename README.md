@@ -1,4 +1,4 @@
-# Identification of a novel papillomavirus from a New Zealand fur seal (Arctocephalus forsteri) with oral papilloma-like lesions 
+# Identification of a novel papillomavirus from a New Zealand fur seal (Arctocephalus forsteri) with oral papilloma-like lesions 🦭🦠
 
 ### Highlights
 -	Analysed seal tissues with or without clinical evidence of viral infection using veterinary diagnostics and RNA-sequencing.
